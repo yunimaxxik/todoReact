@@ -11,7 +11,7 @@ const Todo = () => {
 
   return (
     <div className="todo">
-      <h1 className="todo__title">To Do List</h1>
+      <h1 className="todo__title">Список дел</h1>
       <AddTaskForm />
       <SearchTaskForm />
       <TodoInfo />
@@ -20,7 +20,7 @@ const Todo = () => {
           firstIncompleteTaskRef.current?.scrollIntoView({ behavior: 'smooth' })
         }
       >
-        Show first incomplete task
+        Показать первую невыполненную задачу
       </Button>
       <TodoList />
     </div>

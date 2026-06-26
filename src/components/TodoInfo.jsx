@@ -13,7 +13,7 @@ const TodoInfo = () => {
   return (
     <div className="todo__info">
       <div className="todo__total-tasks">
-        Done {done} from {total}
+        Выполнено {done} из {total}
       </div>
       {hasTasks && (
         <button
@@ -21,7 +21,7 @@ const TodoInfo = () => {
           type="button"
           onClick={deleteAllTasks}
         >
-          Delete all
+          Удалить все
         </button>
       )}
     </div>

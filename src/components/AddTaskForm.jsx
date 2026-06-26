@@ -25,7 +25,7 @@ const AddTaskForm = () => {
     const hasOnlySpaces = clearValue.length === 0 && value.length > 0;
 
     setNewTaskTitle(value);
-    setError(hasOnlySpaces ? 'The task cannot be empty' : '');
+    setError(hasOnlySpaces ? 'Задача не может быть пустой...' : '');
   };
 
   return (
@@ -35,7 +35,7 @@ const AddTaskForm = () => {
     >
       <Field
         className="todo__field"
-        label="New Task Title"
+        label="Новая задача"
         id="new-task"
         value={newTaskTitle}
         error={error}
@@ -46,7 +46,7 @@ const AddTaskForm = () => {
         type="submit"
         isDisabled={isNewTaskTitleEmpty}
       >
-        Add
+        Внести
       </Button>
     </form>
   );

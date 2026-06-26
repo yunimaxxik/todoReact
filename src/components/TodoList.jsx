@@ -9,11 +9,11 @@ const TodoList = () => {
   const isEmptyFilteredTasks = filteredTasks?.length === 0;
 
   if (!hasTasks) {
-    return <div className="todo__empty-message">There are no tasks yet</div>;
+    return <div className="todo__empty-message">Задач еще нет</div>;
   }
 
   if (hasTasks && isEmptyFilteredTasks) {
-    return <div className="todo__empty-message">Tasks not found</div>;
+    return <div className="todo__empty-message">Задач не найдено</div>;
   }
 
   return (
