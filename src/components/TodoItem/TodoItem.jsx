@@ -1,6 +1,8 @@
 import { memo, useContext } from 'react';
-import TasksContext from '../context/TasksContext';
-import RouterLink from './RouterLink';
+import TasksContext from '../../context/TasksContext';
+import RouterLink from '../RouterLink/RouterLink';
+import './TodoItem.css';
+
 const TodoItem = (props) => {
   const { className = '', id, title, isDone } = props;
 

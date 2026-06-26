@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
-import Button from './Button';
-import Field from './Field';
-import TasksContext from '../context/TasksContext';
+import Button from '../Button/Button';
+import Field from '../Field/Field';
+import TasksContext from '../../context/TasksContext';
 
 const AddTaskForm = () => {
   const { addTask, newTaskTitle, setNewTaskTitle, newTaskInputRef } =

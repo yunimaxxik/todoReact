@@ -8,6 +8,10 @@
   }
 }
 
+.todo__field {
+  width: 100%;
+}
+
 .field__label {
   position: absolute;
   top: 50%;
