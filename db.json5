@@ -1,1 +1,1 @@
-{tasks:[{title:'Погладить кота',isDone:false,id:'awtR3QB8YYc'},{title:'Купить собаку',isDone:true,id:'ar5_LJpBiNo'}],$schema:'./node_modules/json-server/schema.json'}
+{tasks:[{title:'Купить собаку',isDone:true,id:'ar5_LJpBiNo'},{title:'пав',isDone:false,id:'7BoJTYelbG8'}],$schema:'./node_modules/json-server/schema.json'}

@@ -1,4 +1,4 @@
-import './Field.css';
+import './Field.scss';
 
 const Field = (props) => {
   const {

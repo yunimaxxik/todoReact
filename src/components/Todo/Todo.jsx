@@ -5,7 +5,7 @@ import TodoInfo from '../TodoInfo/TodoInfo';
 import TodoList from '../TodoList/TodoList';
 import Button from '../Button/Button';
 import TasksContext from '../../context/TasksContext';
-import './Todo.css';
+import './Todo.scss';
 
 const Todo = () => {
   const { firstIncompleteTaskRef } = useContext(TasksContext);

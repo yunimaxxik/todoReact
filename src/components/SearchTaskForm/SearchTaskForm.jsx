@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import Field from '../Field/Field';
 import TasksContext from '../../context/TasksContext';
-import './SearchTaskForm.css';
+import './SearchTaskForm.scss';
 
 const SearchTaskForm = () => {
   const { searchQuery, setSearchQuery } = useContext(TasksContext);

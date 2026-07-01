@@ -1,4 +1,4 @@
-import './Button.css';
+import './Button.scss';
 
 const Button = (props) => {
   const {
@@ -9,7 +9,6 @@ const Button = (props) => {
     onClick
   } = props;
 
-  console.log(isDisabled);
   return (
     <button
       className={`button ${className}`}
